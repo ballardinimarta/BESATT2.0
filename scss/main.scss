@@ -1,0 +1,43 @@
+html {
+    body {
+        background-color: black;
+        color: #fdfcf4;
+        #bigLogo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                height: 250px;
+            }
+        }
+        
+        #pictureWrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            img {
+                height: 500px;
+                width: 500px;
+            }
+        }
+        footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: pink;
+            a {
+                height: 30px;
+                text-decoration: none;
+                color: inherit;
+                margin: 10px;
+                i {
+                    font-size: 30px;
+                }
+                img {
+                    width: 30px;
+                }
+            }
+        }
+    }
+}

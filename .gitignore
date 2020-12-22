@@ -1,0 +1,7 @@
+/assets
+/.cache
+/node_modules
+/dist
+package-lock.json
+package.json
+.DS_Store
