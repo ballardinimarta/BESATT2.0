@@ -1,3 +1,4 @@
+import {store, stores, addStoresHtml} from './butiker';
 class Magazine {
     id: number;
     month: string;
@@ -9,6 +10,7 @@ class Magazine {
         this.picture = picture;
     }
 }
+
 let magazines = [];
 $(function () {
     let first = new Magazine (1, "Februari 2019", require("../assets/NR_1-min.jpg"));
@@ -19,6 +21,7 @@ $(function () {
     openNav();
     addMagazines();
     helpDialog();
+    addStoresHtml();
 })
 
 function openNav() {
@@ -48,7 +51,7 @@ function addMagazines () {
 function helpDialog () {
     let helpDiv = $("<div></div>").attr("id", "dialog");
     $("<img>").attr("src", require("../assets/iphonepic.jpg")).css("height", "500px").appendTo(helpDiv);
-    helpDiv.appendTo($("body"));
+    helpDiv.appendTo($("#buyText"));
     $( "#dialog" ).dialog({
         autoOpen: false,
         resizable: false,

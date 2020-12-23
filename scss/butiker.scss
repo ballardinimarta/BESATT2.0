@@ -1,0 +1,13 @@
+html {
+    body {
+        #container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            .cityContainer {
+                width: 30%;
+                padding: 5px 30px;
+            }
+        }
+    }
+}
