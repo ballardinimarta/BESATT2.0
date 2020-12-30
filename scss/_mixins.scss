@@ -5,3 +5,9 @@
     color: pink;
     text-shadow: 3px 3px 0px rgb(161, 9, 35);
 }
+
+@mixin phone {
+    @media screen and (max-width: 620px){
+        @content;
+    }
+}
