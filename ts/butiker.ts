@@ -45,7 +45,7 @@ export function addStoresHtml () {
     $.each(stores, (i, onestore) => {
         let storeContainer = $("<div></div>").addClass("storeContainer");
         $("<h3></h3>").addClass("storeName").text(onestore.name).appendTo(storeContainer);
-        $("<p></p>").addClass("storeAdress").text(onestore.adress).appendTo(storeContainer);
+        $("<a></a>").addClass("storeAdress").attr("target", "_blank").attr("href", `https://www.google.se/maps/place/${onestore.adress}`).text(onestore.adress).appendTo(storeContainer);
         if (onestore.city == "Stockholm") {
             storeContainer.appendTo(sthlmContainer);
         }
