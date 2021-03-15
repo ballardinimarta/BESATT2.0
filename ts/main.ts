@@ -1,6 +1,5 @@
 import {Magazine, magazines, addMagazines, helpDialog} from './kop';
 import {store, stores, addStoresHtml} from './butiker';
-
 $(function () {
     
     openNav();
