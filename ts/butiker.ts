@@ -35,10 +35,10 @@ export function addStoresHtml () {
     let goteborgContainer = $("<div></div>").addClass("cityContainer").attr("id", "goteborg");
     let ovrigContainer = $("<div></div>").addClass("cityContainer").attr("id", "ovrig");
 
-    $("<h1></h1>").text("Stockholm").css("border-bottom", "3px solid pink").appendTo(sthlmContainer);
-    $("<h1></h1>").text("Skåne").css("border-bottom", "3px solid pink").appendTo(skaneContainer);
-    $("<h1></h1>").text("Göteborg").css("border-bottom", "3px solid pink").appendTo(goteborgContainer);
-    $("<h1></h1>").text("Övriga Sverige").css("border-bottom", "3px solid pink").appendTo(ovrigContainer);
+    $("<h1></h1>").text("Stockholm").css("border-bottom", "3px solid palevioletred").appendTo(sthlmContainer);
+    $("<h1></h1>").text("Skåne").css("border-bottom", "3px solid palevioletred").appendTo(skaneContainer);
+    $("<h1></h1>").text("Göteborg").css("border-bottom", "3px solid palevioletred").appendTo(goteborgContainer);
+    $("<h1></h1>").text("Övriga Sverige").css("border-bottom", "3px solid palevioletred").appendTo(ovrigContainer);
 
 
 

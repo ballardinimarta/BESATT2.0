@@ -18,7 +18,6 @@ html {
                     width: 90%;
                 }
                 label {
-                    @include textPink;
                     font-size: 100%;
                     @include phone {
                         font-size: 90%;
