@@ -1,9 +1,6 @@
 /assets
 /.cache
 /node_modules
-/dist
-package-lock.json
-package.json
 .DS_Store
 android-chrome-192x192.png
 android-chrome-512x512.png

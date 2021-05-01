@@ -1,0 +1,45 @@
+html body #container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+@media screen and (max-width: 620px) {
+  html body #container {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+html body #container .cityContainer {
+  width: 30%;
+  padding: 5px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 620px) {
+  html body #container .cityContainer {
+    width: 90%;
+    font-size: 90%;
+    padding: 5px 0px;
+  }
+}
+html body #container .cityContainer .storeContainer {
+  border: 3px solid palevioletred;
+  padding: 10px;
+  margin: 10px 0;
+  width: 90%;
+}
+@media screen and (max-width: 620px) {
+  html body #container .cityContainer .storeContainer {
+    font-size: 90%;
+  }
+}
+html body #container .cityContainer .storeContainer a {
+  list-style-type: none;
+  color: inherit;
+}
+
+/*# sourceMappingURL=/butiker.3b5e0ca0.css.map */

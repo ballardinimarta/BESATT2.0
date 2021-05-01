@@ -1,0 +1,17 @@
+html body div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+html body div a {
+  list-style-type: none;
+  color: inherit;
+}
+@media screen and (max-width: 620px) {
+  html body div a {
+    font-size: 90%;
+  }
+}
+
+/*# sourceMappingURL=/kontakt.4cc9b4e2.css.map */

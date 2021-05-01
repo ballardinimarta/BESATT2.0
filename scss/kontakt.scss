@@ -5,6 +5,8 @@ html {
         div {
             display: flex;
             justify-content: center;
+            flex-direction: column;
+            align-items: center;
             a{
                 list-style-type: none;
                 color: inherit;

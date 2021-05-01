@@ -13,11 +13,12 @@ export class Magazine {
 export let magazines = [];
 
 export function addMagazines () {
-    let first = new Magazine (1, "Februari 2019", require("../assets/NR_1-min.jpg"));
-    let second = new Magazine (2 , "Juni 2019", require("../assets/NR_2-min.jpg"));
-    let third = new Magazine (3, "Oktober 2019", require("../assets/NR_3-min.jpg"));
+    let first = new Magazine (1, "Februari 2019", require("../assets/NR_1.jpg"));
+    let second = new Magazine (2 , "Juni 2019", require("../assets/NR_2.jpg"));
+    let third = new Magazine (3, "Oktober 2019", require("../assets/NR_3.jpg"));
     let fourth = new Magazine (4, "Juni 2020", require("../assets/NR_4.jpg"));
-    magazines.push(fourth, third, second, first);
+    let fifth = new Magazine( 5, "Maj 2021", require("../assets/NR_5.jpg"))
+    magazines.push(fifth, fourth, third, second, first);
 
     $.each(magazines, (i, magazine) => {
         let wrap = $("<div></div>").attr("id", "number"+magazine.id+"Wrapper");
