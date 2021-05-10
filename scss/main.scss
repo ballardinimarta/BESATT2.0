@@ -12,11 +12,19 @@ html {
             display: flex;
             justify-content: center;
             align-items: center;
-            img {
-                height: 250px;
-                @include phone {
-                    height: 75px;
-                }
+            div {
+                background-image: url('../assets/whiteLogo.svg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    height: 250px;
+                    width: 700px;
+                    @include phone {
+                        height: 120px;
+                        width: 120px;
+                        margin: 10px 0px;
+                        background-image: url('../assets/rundloggavit.svg');
+                    }
             }
         }
         #smallLogo {
@@ -27,11 +35,22 @@ html {
                 width: 100%;
             }
             a {
-                img {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                #logo {
+                    background-image: url('../assets/whiteLogo.svg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
                     height: 150px;
+                    width: 500px;
                     @include phone {
-                        height: 75px;
-                        
+                        height: 100px;
+                        width: 100px;
+                        margin: 10px 0px;
+                        background-image: url('../assets/rundloggavit.svg');
                     }
                 }
             }
@@ -41,13 +60,13 @@ html {
             position: fixed;
             top: 25px;
             right: 25px;
-            font-size: 30px;
+            font-size: 200%;
             margin-left: 50px;
             border: none;
             background-color: transparent;
             color:inherit;
             @include phone {
-                font-size: 25px;
+                font-size: 250%;
                 top: 15px;
                 right: 15px;
                 margin: 0px;
